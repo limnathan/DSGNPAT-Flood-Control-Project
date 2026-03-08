@@ -2,7 +2,7 @@ import { Report1Generator } from './Report1Generator.js';
 import { Report2Generator } from './Report2Generator.js';
 import { Report3Generator } from './Report3Generator.js';
 
-class ReportFactory {
+export class ReportFactory {
     static createReport(type, data) {
         switch (type) {
             case 'REPORT_1':
